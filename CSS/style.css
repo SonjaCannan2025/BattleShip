@@ -1,0 +1,36 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  background-image: url(https://i5.walmartimages.com/seo/Battleship-Game-by-Hasbro-Gaming-for-Kids-Ages-7-and-up-for-2-Players_f4e40d1f-a403-4a9c-823a-0058f593f743.3a2e4c412fb96794492047219404621d.jpeg);
+}
+
+h1{
+  color: aliceblue;
+}
+
+h3{
+  background-color: lightblue;
+}
+.square {
+aspect-ratio: 1 / 1;
+border: 2px solid #363569;
+background-color: #888893;
+transition: background-color 0.3s ease;
+cursor: pointer;
+}
+
+.board {
+  margin: 2rem auto;
+  max-width: 500px;
+}
+
+.hidden{
+  display: none;
+}
+
+
+@media (max-width: 600px) {
+  .board {
+      max-width: 300px;
+      padding: 0 1rem;
+  }
+}
